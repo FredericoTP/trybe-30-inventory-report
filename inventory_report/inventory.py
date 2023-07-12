@@ -10,5 +10,5 @@ class Inventory:
     def data(self) -> list[Product]:
         return self._data.copy()
 
-    def add_data(self, products_list: list[Product]) -> None:
-        self._data.extend(products_list)
+    def add_data(self, data: list[Product]) -> None:
+        self._data.extend(data)
